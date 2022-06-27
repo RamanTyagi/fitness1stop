@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box,Stack,Typography,Button } from '@mui/material';
-import HeroBannerImage from '../assets/images/banner.png';
+import HeroBannerImage from '../assets/images/1.jpg';
 const HeroBanner = () => {
   return(
       <Box sx={{
@@ -12,11 +12,11 @@ const HeroBanner = () => {
       </Typography>
       <Typography fontWeight="700"
         sx = {{
-          fontSize:{lg:'44px',xs:'40px'}
+          fontSize:{lg:'22px',xs:'20px'}
         }}
         mb="23px" mt="30px"
       >
-      Sweat , Smile <br/> and Repeat !
+      A champion is someone <br/>  who gets up when they can’t ! <br/> — Jack Dempsey
       </Typography>
       <Typography fontSize="22px"
           lineHeight="35px"
